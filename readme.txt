@@ -1,3 +1,55 @@
+HRMS Solution
+
+The HRMS Solution is a lightweight Human Resource Management System (HRMS) with a Flask backend and a modern HTML/CSS/JavaScript frontend. It uses AWS DynamoDB as the database for storing employee and leave records.
+
+The system helps HR teams manage employees, process leave requests, and keep data secure in the cloud.
+
+🚀 Features
+👤 Employee Management
+
+Add, update, and view employee records.
+
+Hard-delete employees (soft-delete possible via status field).
+
+Store employee profile, role, department, joining date, salary, and status in DynamoDB.
+
+🌴 Leave Management
+
+Employees can request different types of leaves.
+
+HR/Admin can approve or reject requests.
+
+Leave status tracking: Pending, Approved, Rejected.
+
+ Bulk Import/Export
+
+Import employee data via CSV (UI placeholder).
+
+Export employee data to CSV (UI placeholder).
+
+🛠️ Tech Stack
+
+Frontend: HTML, CSS, JavaScript (Bootstrap + custom UI styling)
+
+Backend: Python Flask (REST APIs)
+
+Database: AWS DynamoDB
+
+ Future Enhancements
+
+Attendance tracking.
+
+Payroll processing.
+
+Performance analytics.
+
+Role-based authentication.
+
+Employee self-service portal (mobile app).
+
+
+
+
 # F13 HRMS - Human Resource Management System
 
 A Flask-based HRMS application using AWS services (DynamoDB, S3) for data storage.
